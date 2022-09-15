@@ -3,5 +3,6 @@ import filmsReducer from './filmsReducer'
 
 export const store = configureStore({
   reducer: {
+    films: filmsReducer
   },
 })
